@@ -10,7 +10,7 @@ import (
 )
 
 
-const dsn = "host=localhost user=postgres password=Liza110909 dbname=botp port=5432 sslmode=disable"
+const dsn = "Данные по базе данных (host, user ...)"
 
 // Структура пользователей для БД
 type Users struct{ 
