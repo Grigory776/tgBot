@@ -15,10 +15,10 @@ import (
 )
 
 const (
-	BotToken = "5385945798:AAGyQ2KB7vNUTLDTy88p51Iu2hfTv703_6c"
-	SuperUser = 665031991
-	ApiAssesKey = "99aee6119fd70ee956d1ec84949fec4e"
-	Limit = 3
+	BotToken = "Брать у FatherBot"
+	SuperUser = -1 // id - главного админа для бота
+	ApiAssesKey = "Api брать на сайте https://ipstack.com/" // Сервер проверяет ip 
+	Limit = 3 // Лимит запросов от одного пользователя
 )
 
 type Bot struct{
